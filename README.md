@@ -1,7 +1,7 @@
 # ActionPak for Servers
 
 
-ActionPak for Servers is a comprehensive Bash script designed to simplify various server setup and management tasks on Ubuntu-based systems. It provides a menu-driven interface for performing common server configurations and installing essential tools.
+ActionPak for Servers is a Bash script designed to simplify various server setup and management tasks on Ubuntu server. It provides a menu-driven interface for performing common server configurations and installing essential tools.
 
 ## Table of Contents
 
@@ -92,11 +92,3 @@ If you encounter issues during installation:
    cd /tmp/kasm_release && sudo bash install.sh
    ```
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-
-## Disclaimer
-
-This script makes significant changes to your system. Always review the script and understand its actions before running it. Ensure you have backups of important data before making system-wide changes.
