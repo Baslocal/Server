@@ -58,13 +58,13 @@ if ! command -v curl &> /dev/null; then
 fi
 
 # Download the script
-sudo curl -s https://raw.githubusercontent.com/Baslocal/Server/main/Actionpak_server.sh -o actionpak.sh
+sudo curl -s https://raw.githubusercontent.com/Baslocal/Server/main/Actionpak_server.sh -o actionpak_server.sh
 
 # Make the script executable
-sudo chmod +x actionpak.sh
+sudo chmod +x actionpak_server.sh
 
 # Run the script
-sudo ./actionpak.sh
+sudo ./actionpak_server.sh
 ```
 
 ## Usage
