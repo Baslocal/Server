@@ -10,8 +10,7 @@ ActionPak for Servers is a Bash script designed to simplify various server setup
 - [Installation](#installation)
 - [Usage](#usage)
 - [Menu Options](#menu-options)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 
@@ -47,20 +46,26 @@ ActionPak for Servers is a Bash script designed to simplify various server setup
 
 ## Single command
 
-#Check and install sudo if not present
+```bash
+# Check and install sudo if not present
 if ! command -v sudo &> /dev/null; then
     apt-get update && apt-get install -y sudo
 fi
-#Check and install curl if not present
+
+# Check and install curl if not present
 if ! command -v curl &> /dev/null; then
     sudo apt-get update && sudo apt-get install -y curl
 fi
-#Download the script
+
+# Download the script
 sudo curl -s https://raw.githubusercontent.com/Baslocal/Server/main/Actionpak_server.sh -o actionpak.sh
-#Make the script executable
+
+# Make the script executable
 sudo chmod +x actionpak.sh
-#Run the script
+
+# Run the script
 sudo ./actionpak.sh
+```
 
 ## Usage
 
